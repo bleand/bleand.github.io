@@ -1,0 +1,74 @@
+/* CSS code for the portfolio site */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martian Mono', monospace;
+}
+
+.container{
+    padding:10px;
+}
+
+.portfolio {
+    display: none;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #FF4500;
+    text-decoration: none;
+}
+
+#intro .intro-text {
+    color: rgb(242, 255, 237);
+    font-size: 4rem;
+}
+
+#main-page {
+    min-height: 100vh;
+}
+
+
+#intro{
+    width: 100%;
+    min-height: 100%;
+    background: radial-gradient(circle, #bd4012, transparent);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#intro div {
+    color: #ca9985;
+    font-size: 2rem;
+}
+
+#intro strong {
+    color: #c3a397;
+}
+
+.portfolio-title{
+    color: #bd4012;
+    font-size: 2rem;
+    text-align: center;
+}
+
