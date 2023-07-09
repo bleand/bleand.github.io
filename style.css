@@ -1,5 +1,7 @@
 /* CSS code for the portfolio site */
 
+
+/*Main objects*/
 body {
     margin: 0;
     padding: 0;
@@ -10,30 +12,7 @@ body {
     padding:10px;
 }
 
-.portfolio {
-    display: none;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-}
-
-.card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card p {
-    margin-bottom: 20px;
-}
-
-.card a {
-    color: #FF4500;
-    text-decoration: none;
-}
+/*Landing*/
 
 #intro .intro-text {
     color: rgb(242, 255, 237);
@@ -43,7 +22,6 @@ body {
 #main-page {
     min-height: 100vh;
 }
-
 
 #intro{
     width: 100%;
@@ -63,12 +41,81 @@ body {
 }
 
 #intro strong {
-    color: #c3a397;
+    color: #bdaea8;
+}
+
+/*Cards*/
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    width: 20vw;
+    transition: 0.2s;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+}
+
+.card:hover {
+    transform: translateY(-1.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--bs-body-color);
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card_header{
+    font-size: 2rem;
+    padding: 20px;
+    background-color: #bd4012;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_description {
+    font-size: 1rem;
+    padding: 20px;
+    color: var(--bs-body-color);
+}
+
+a.card__btn {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+a.card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+a.card__btn:hover, .card__btn:active {
+    background-color: #dce4ff;
+    font-size: 1.1rem;
+}
+a.card__btn:hover span, .card__btn:active span {
+    margin-left: 1.5rem;
 }
 
 .portfolio-title{
     color: #bd4012;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
-
