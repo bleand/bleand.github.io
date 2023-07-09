@@ -58,6 +58,7 @@ body {
     margin: 20px;
     border-radius: 10px;
     width: 20vw;
+    min-width: 300px;
     transition: 0.2s;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
 }
