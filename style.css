@@ -1,0 +1,121 @@
+/* CSS code for the portfolio site */
+
+
+/*Main objects*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martian Mono', monospace;
+}
+
+.container{
+    padding:10px;
+}
+
+/*Landing*/
+
+#intro .intro-text {
+    color: rgb(242, 255, 237);
+    font-size: 4rem;
+}
+
+#main-page {
+    min-height: 100vh;
+}
+
+#intro{
+    width: 100%;
+    min-height: 100%;
+    background: radial-gradient(circle, #bd4012, transparent);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#intro div {
+    color: #ca9985;
+    font-size: 2rem;
+}
+
+#intro strong {
+    color: #bdaea8;
+}
+
+/*Cards*/
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    width: 20vw;
+    transition: 0.2s;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+}
+
+.card:hover {
+    transform: translateY(-1.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--bs-body-color);
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card_header{
+    font-size: 2rem;
+    padding: 20px;
+    background-color: #bd4012;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_description {
+    font-size: 1rem;
+    padding: 20px;
+    color: var(--bs-body-color);
+}
+
+a.card__btn {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+a.card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+a.card__btn:hover, .card__btn:active {
+    background-color: #dce4ff;
+    font-size: 1.1rem;
+}
+a.card__btn:hover span, .card__btn:active span {
+    margin-left: 1.5rem;
+}
+
+.portfolio-title{
+    color: #bd4012;
+    font-size: 3rem;
+    text-align: center;
+}
