@@ -44,6 +44,56 @@ body {
     color: #bdaea8;
 }
 
+#scrolldown{
+    position: absolute;
+    text-decoration: none;
+    color: #212529;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+#scrolldown svg{
+    height: 32px;
+    width: 32px;
+}
+
+.hh-social{
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 97%;
+    right: 50%;
+    list-style: none;
+    margin: 0;
+    transition: opacity .35s ease .75s;
+    z-index: 7;
+    background: #21252950;
+    padding: 16px;
+    transform: translate(50%, -50%);
+}
+
+.hh-social li {
+    display:inline;
+    padding: 6px;
+}
+
+.hh-social a{
+    text-decoration: none;
+}
+
+.hh-social svg {
+    width: 32px;
+    height: 32px
+}
+
+.hh-social svg path {
+    fill: #b0b2c3;
+    transition: fill .3s ease
+}
+
+.hh-social li:focus svg path,.hh-social li:hover svg path {
+    fill: #fff
+}
+
 /*Cards*/
 
 .cards-container {
