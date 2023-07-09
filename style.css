@@ -48,7 +48,7 @@ body {
     position: absolute;
     text-decoration: none;
     color: #212529;
-    top: 90%;
+    top: 85%;
     right: 50%;
     transform: translate(50%, -50%);
 }
