@@ -69,7 +69,7 @@ body {
 }
 
 .card h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     color: var(--bs-body-color);
 }
@@ -79,14 +79,13 @@ body {
 }
 
 .card_header{
-    font-size: 2rem;
     padding: 20px;
     background-color: #bd4012;
     border-radius: 10px 10px 0 0;
 }
 
 .card_description {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 20px;
     color: var(--bs-body-color);
 }
